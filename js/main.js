@@ -91,15 +91,15 @@ setTimeout(function() {
   modal.style.display = 'block';
 }, 250);
 
+
 /*-----------------------------------------------------------------------------------*/
-/*	03. SMOOTH SCROLLING ON BUTTON
+/*	08. SMOOTH SCROLLING
 /*-----------------------------------------------------------------------------------*/
 	
 
 $('.goto').click(function(e){
- e.preventDefault();
-    $('html').scrollTo(this.hash,this.hash);
-   
+    $('html,body').scrollTo(this.hash,this.hash,  {'axis':'y'});
+    e.preventDefault();
 });
 
 
