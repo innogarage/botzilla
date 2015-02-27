@@ -1,3 +1,0 @@
-# BOTZILLA
-
-Hello from btozilla
